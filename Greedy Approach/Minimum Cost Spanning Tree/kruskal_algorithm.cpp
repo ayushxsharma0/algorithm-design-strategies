@@ -3,7 +3,7 @@
 #define I 32767  // Infinity
 #define V 7  // # of vertices in Graph
 #define E 9  // # of edges in Graph
- 
+// note -> You should change the above global variables accourding to the question and the edges matrix in main function too
 using namespace std;
  
 void PrintMCST(int T[][V-1], int A[][E]){
