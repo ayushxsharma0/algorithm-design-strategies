@@ -60,8 +60,8 @@ void prim(int v, int size, vector<vector<int>> m){
         } 
     }
     // print the t vertex as it include all vertex in mcst 
-    for(int i =0;i<v-1;i++){
-        cout<<t[0][i]<<" -- "<<t[1][i] <<endl;
+    for (int i {0}; i<v-1; i++){
+        cout << "[" << t[0][i] << "]-----[" << t[1][i] << "]" << endl;
     }
     cout<<"minimum cost = "<<sum ;
 }
